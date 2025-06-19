@@ -1,0 +1,19 @@
+{
+  "name": "Web Crawler Plugin",
+  "description": "Automated sourcing of opportunities from trusted websites, with multi-language and AI rewriting support.",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "active": false,
+  "main": "src/Http/Controllers/WebCrawlerController.php",
+  "providers": [
+    "WebCrawler\\Providers\\WebCrawlerServiceProvider"
+  ],
+  "install": [
+    "database/migrations/create_crawled_opportunities.php",
+    "database/migrations/create_crawler_logs.php",
+    "database/migrations/create_crawler_sources.php"
+  ],
+  "uninstall": [
+    "remove_crawler_tables"
+  ]
+}
