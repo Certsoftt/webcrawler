@@ -2,7 +2,7 @@
   "name": "Web Crawler Plugin",
   "description": "Automated sourcing of opportunities from trusted websites, with multi-language and AI rewriting support.",
   "version": "1.0.0",
-  "author": "Your Name",
+  "author": "cetsoftt a.k.a Ubsimple",
   "active": false,
   "main": "src/Http/Controllers/WebCrawlerController.php",
   "providers": [
